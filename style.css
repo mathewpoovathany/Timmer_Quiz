@@ -1,0 +1,113 @@
+h1 {
+    font-family: 'Gabriola', serif;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Cambria', serif;
+    font-size: 1.5em;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+
+p {
+    font-family: 'Gabriola', serif;
+}
+
+
+/* Quiz Classes */
+
+.quizContainer {
+    background-color: rgb(117, 179, 24);
+    border-radius: 6px;
+    width: 75%;
+    margin: auto;
+    padding-top: 5px;
+    position: relative;
+}
+
+.quizcontainer #quiz1 {
+    text-shadow: 1px 1px 2px rgb(143, 94, 2);
+    font-family: "Georgia", Arial, sans-serif;
+}
+
+.nextButton {
+    box-shadow: 3px 3px 5px rgb(104, 99, 99);
+    border-radius: 6px;
+    /* width: 150px;*/
+    height: 40px;
+    text-align: center;
+    background-color: rgb(184, 164, 164);
+    /*clear: both;*/
+    color: rgb(207, 23, 23);
+    font-family: 'Gabriola', serif;
+    position: relative;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    float: right;
+    right: 30%;
+}
+
+.question {
+    font-family: 'Century', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: #ceb512;
+    text-align: center;
+}
+
+.quizMessage {
+    background-color: rgb(248, 202, 161);
+    border-radius: 6px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gabriola', serif;
+    color: rgb(238, 14, 14);
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+.choiceList {
+    font-family: 'Arial', serif;
+    color: #da10bb;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.result {
+    width: 40%;
+    height: auto;
+    border-radius: 6px;
+    background-color: rgb(218, 211, 205);
+    margin: auto;
+    color: rgb(5, 148, 5);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Verdana', serif;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+
+/* End of Quiz Classes */
